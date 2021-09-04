@@ -1,8 +1,5 @@
-<p align="center">
-  <img src="https://img.icons8.com/color/48/000000/magritte.png"/>
-</p>
 <h1 align="center">
-  jarin.me - v1
+  🪐 Titan Project
 </h1>
 <p align="center">
   Faites parti des premiers touristes de Titan.
