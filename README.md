@@ -38,27 +38,26 @@ Il s'agit d'un formulaire dont il faut assurer la **validation en PHP**, ainsi q
    ```
 Changer le port 3306 en 3307 comme suit :
 
-  ```sh
-  port=3307
-  socket="C:/Program Files/xampp/mysql/mysql.sock"
-  ```
+    ```sh
+    port=3307
+    socket="C:/Program Files/xampp/mysql/mysql.sock"
+    ```
 
 et ici :
 
-  ```sh
-  default-character-set=utf8mb4
-  [mysqld]
-  port=3307
-  ```
+    ```sh
+    default-character-set=utf8mb4
+    [mysqld]
+    port=3307
+    ```
 
 
 
-## 🚀 build and run for production
+## 🚀 build and run
 
-1. Generate a full static production build
-
-   ```sh
-   npm run build
-   ```
-
+1. Ouvrez votre navigateur par défaut et allez à l'adresse suivant : http://localhost/jupiter/index.html
+2. Dans un second temps, ouvrez le panneau de contrôle XAMPP et lancez les modules Apache et MySQL en appuyant sur **Start** sous la colonne **Actions**
+3. Ouvrez la page de gestion de la base de données MySQL en cliquant sur la case **Admin** de la ligne MySQL et créez une base de données du même nom que le fichier db_conn.php. Dans notre cas la base de données se nomme test_db.
+4. Une fois la base de données crée, il faut crée une table à l'aide de l'onglet **Opération**, du même nom que dans le code php, ici elle se nomme test. Il faut ensuite ajouter 3 colonnes (prénom, nom et email) en type VARCHAR(222) en cliquant sur l'onglet **Structure** et en ajoutant les colonnes une à une. Les colonnes correspondent aux informations récupérées par le formulaire. (J'ai crée une première colonne appelé id et coché la case AI : auto-incrémentation, qui permet de numéroter les personnes remplissant le formulaire).
+5. Tout est prêt, vous n'avez plus qu'à retourner à l'adresse en 1. http://localhost/jupiter/index.html et à remplir votre formulaire. Si vous remplissez correctement le formulaire (ne pas laisser de case vide) en cliquant sur la case de validation un message s'affiche pour dire que l'enregistrement s'est bien effectué. Dans le cas contraire, un message s'affiche aussi pour dire que l'enregistrement ne s'est pas bien effectué.
 
