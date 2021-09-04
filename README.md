@@ -61,9 +61,11 @@ et ici :
 ## 💻 Demo
 
 Tout d'abord on lance Apache et MySQL puis on clique sur Admin pour lancer phpMyAdmin qui va servir à gérer notre base de données.
+
 <img src ="Jupiter/images/xampp.gif" width = "auto" height = "auto">
 
-Une fois sur phpMyAdmin, on ouvre un nouvel onglet pour se rendre à l'adresse http://localhost/jupiter
+Une fois sur phpMyAdmin il faut créer la base de données et la table comme indiquée dans la section build and run, dans l'exemple qui suit la table est déjà crée, puis on ouvre un nouvel onglet pour se rendre à l'adresse http://localhost/jupiter
 Après avoir remplis le formulaire on retourne sur phpMyAdmin puis on actualise la page pour vérifier que nos données on bien été importées.
+
 <img src ="Jupiter/images/phpmyadmin.gif" width = "auto" height = "auto">
 
