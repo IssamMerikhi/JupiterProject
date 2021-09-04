@@ -1,9 +1,9 @@
 <h1 align="center">
   🪐 Titan Project
 </h1>
-<h2 align="center">
+<p align="center">
   Faites parti des premiers touristes de Titan.
-</h2>
+</p>
 
 <p align="center">
   <img src ="/Jupiter/images/titan.jpg">
