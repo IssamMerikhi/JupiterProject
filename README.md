@@ -6,7 +6,7 @@
 </p>
 
 <p align="center">
-  <img src ="/jupiter/images/titan.jpg">
+  <img src ="/Jupiter/images/titan.jpg">
 </p>
 
 ## 🛠 set-up
