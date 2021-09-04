@@ -23,35 +23,33 @@ Il s'agit d'un formulaire dont il faut assurer la **validation en PHP**, ainsi q
 
 2. Warning.
 
-- Le dossier Jupiter doit se trouver dans le répertoire suivant :
+Le dossier Jupiter doit se trouver dans le répertoire suivant :
 
   ```sh
   C:\Program Files\xampp\htdocs
   ```
 
-- Utiliser XAMPP en mode administrateur. Le mode invité ou utilisateur bloque certaines fonctionnalités.
+Utiliser XAMPP en mode administrateur. Le mode invité ou utilisateur bloque certaines fonctionnalités.
 
-- Si vous avez déjà installer MySQL sur votre machine, il faut changer le port MySQL dans XAMPP
+Si vous avez déjà installer MySQL sur votre machine, il faut changer le port MySQL dans XAMPP
 
    ```sh
     C:\Program Files\xampp\mysql\bin\my.ini
    ```
 Changer le port 3306 en 3307 comme suit :
 
-    ```sh
-    port=3307
-    socket="C:/Program Files/xampp/mysql/mysql.sock"
-    ```
+  ```sh
+  port=3307
+  socket="C:/Program Files/xampp/mysql/mysql.sock"
+  ```
 
 et ici :
 
-    ```sh
-    default-character-set=utf8mb4
-    [mysqld]
-    port=3307
-    ```
-
-
+  ```sh
+  default-character-set=utf8mb4
+  [mysqld]
+  port=3307
+  ```
 
 ## 🚀 build and run
 
