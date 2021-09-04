@@ -11,6 +11,7 @@
 
 ## 📋 informations
 
+Il s'agit d'un formulaire dont il faut assurer la **validation en PHP**, ainsi que l'**enregistrement des données** en base de données **MySQL**.
 
 
 ## 🛠 set-up
