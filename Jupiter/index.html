@@ -3,23 +3,38 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
     <title>Jupiter</title>
 </head>
 <body>
+    <div class=page>
+    <img src="./assets/logo.jpg" alt="logo">
+
+    <p>Inscrivez-vous pour faire partir des premiers touristes de Titan, la fameuse lune de Saturne !
+    </p>
+
 
     <form action="send.php" method="post">
-        <label for="">Name:</label>
-        <input type="text" name = "name">
+
+        <label for="" class="prenom">Prenom<span style="color: red">*</span></label>
+        <input type="text" name = "prename" class="prenomfield">
 
         
-        <label for="">Message:</label>
-        <textarea name = "message">
+        <label for="" class="nom">Nom<span style="color: red">*</span></label>
+        <input type="text" name = "name" class="nomfield">
 
-        </textarea>
 
-        <input type="submit" name="btn">
+        <label for="" class="mail">Email<span style="color: red">*</span></label>
+        <input type="text" name = "email" class="mailfield">
+
+        <input type="checkbox" id="subscribeNews" name="subscribe" value="newsletter" class="cocher">
+        <label for="subscribeNews" class="textcheckbox">J'accepte de m'inscrire à la newsletter de Titan.</label>
+
+        
+        <input type="submit" value = "VALIDER MON INSCRIPTION" name="btn" id = sendBtn class="carreorange">
 
     </form>
+    </div>
     
 </body>
 </html>

@@ -1,0 +1,181 @@
+@font-face {
+    font-family: 'Roboto';
+    src: URL('./font\ Roboto/Roboto-Regular.ttf') format('truetype');
+}
+
+
+.page{
+    position: absolute;
+    width: 1440px;
+    height: 900px;
+
+    background: #FFFFFF;
+}
+
+img {
+
+    position: absolute;
+    width: 389px;
+    height: 178.25px;
+    left: 525px;
+    top: 40px;
+}
+
+p {
+    position: absolute;
+width: 700px;
+height: 60px;
+left: 370px;
+top: 260px;
+
+font-family: Roboto;
+font-style: normal;
+font-weight: normal;
+font-size: 22px;
+line-height: 26px;
+text-align: center;
+
+color: #000000;
+}
+
+.prenom{
+    position: absolute;
+    width: 270px;
+    height: 30px;
+    left: 585px;
+    top: 380px;
+
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 19px;
+    display: flex;
+    align-items: center;
+
+    color: #000000;
+}
+
+.prenomfield{
+
+    position: absolute;
+    width: 270px;
+    height: 40px;
+    left: 585px;
+    top: 410px;
+
+    background: #FFFFFF;
+    border: 1px solid #000000;
+}
+
+.nom{
+    position: absolute;
+    width: 270px;
+    height: 30px;
+    left: 585px;
+    top: 475px;
+
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 19px;
+    display: flex;
+    align-items: center;
+
+    color: #000000;
+}
+
+
+.nomfield{
+    position: absolute;
+    width: 270px;
+    height: 40px;
+    left: 585px;
+    top: 505px;
+
+    background: #FFFFFF;
+    border: 1px solid #000000;
+}
+
+.mail{
+    position: absolute;
+    width: 270px;
+    height: 30px;
+    left: 585px;
+    top: 570px;
+
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 19px;
+    display: flex;
+    align-items: center;
+
+    color: #000000;
+}
+
+.mailfield{
+    position: absolute;
+    width: 270px;
+    height: 40px;
+    left: 585px;
+    top: 600px;
+
+    background: #FFFFFF;
+    border: 1px solid #000000;
+}
+
+.cocher{
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    left: 530px;
+    top: 675px;
+
+    background: #FFFFFF;
+    border: 1px solid #000000;
+}
+
+.textcheckbox{
+    position: absolute;
+    width: 340px;
+    height: 40px;
+    left: 570px;
+    top: 680px;
+}
+
+
+#sendBtn{
+    position: absolute;
+    width: 350px;
+    height: 40px;
+    left: 545px;
+    top: 753px;
+
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 19px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    text-transform: uppercase;
+
+    color: #FFFFFF;
+}
+
+.carreorange{
+    position: absolute;
+    width: 350px;
+    height: 40px;
+    left: 545px;
+    top: 753px;
+    text-align: center;
+
+
+    background: #DB6708;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}

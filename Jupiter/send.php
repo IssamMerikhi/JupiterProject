@@ -1,6 +1,6 @@
 <?php
 
-if (isset($_POST['name']) && isset($_POST['message'])){
+if (isset($_POST['prename']) && isset($_POST['name']) && isset($_POST['email'])){
     include 'db_conn.php';
     
 
@@ -11,18 +11,21 @@ if (isset($_POST['name']) && isset($_POST['message'])){
         return $data;
     }
 
+    $prename = validate($_POST['prename']);
     $name = validate($_POST['name']);
-    $message = validate($_POST['message']);
+    $email = validate($_POST['email']);
+    $subscription = validate($_POST['subscribe']);
 
-    if (empty($message) || empty($name)){
+
+    if (empty($name) || empty($prename) || empty($email)){
         header("Location: index.html");    
     } else {
 
-        $sql = "INSERT INTO test(name, message) VALUES('$name', '$message')";
+        $sql = "INSERT INTO test(prename, name, email) VALUES('$prename', '$name', '$email')";
         $res = mysqli_query($conn, $sql);
 
         if ($res) {
-            echo "You was successfully registered";
+            echo "You have been successfully registered";
         } else {
             echo "Echec while registering";
         }
