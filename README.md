@@ -58,6 +58,12 @@ et ici :
 3. Une fois la base de données crée, il faut crée une table à l'aide de l'onglet **Opération**, du même nom que dans le code php, ici elle se nomme test. Il faut ensuite ajouter 3 colonnes (prénom, nom et email) en type VARCHAR(222) en cliquant sur l'onglet **Structure** et en ajoutant les colonnes une à une. Les colonnes correspondent aux informations récupérées par le formulaire. (J'ai crée une première colonne appelé id et coché la case AI : auto-incrémentation, qui permet de numéroter les personnes remplissant le formulaire).
 4. Tout est prêt, vous n'avez plus qu'à ouvrir votre navigateur par défaut, vous rendre à l'adresse suivante : http://localhost/jupiter/index.html et remplir votre formulaire. Si vous remplissez correctement le formulaire (ne pas laisser de case vide) en cliquant sur la case de validation un message s'affiche pour dire que l'enregistrement s'est bien effectué. Dans le cas contraire, un message s'affiche aussi pour dire que l'enregistrement ne s'est pas bien effectué.
 
-## Demo
+## 💻 Demo
 
+Tout d'abord on lance Apache et MySQL puis on clique sur Admin pour lancer phpMyAdmin qui va servir à gérer notre base de données.
 <img src ="Jupiter/images/xampp.gif" width = "auto" height = "auto">
+
+Une fois sur phpMyAdmin, on ouvre un nouvel onglet pour se rendre à l'adresse http://localhost/jupiter
+Après avoir remplis le formulaire on retourne sur phpMyAdmin puis on actualise la page pour vérifier que nos données on bien été importées.
+<img src ="Jupiter/images/phpmyadmin.gif" width = "auto" height = "auto">
+
