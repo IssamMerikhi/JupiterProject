@@ -13,6 +13,10 @@
 
 Il s'agit d'un formulaire dont il faut assurer la **validation en PHP**, ainsi que l'**enregistrement des données** en base de données **MySQL**.
 
+<p align="center">
+  <img src ="/Jupiter/images/maquette.jpg">
+</p>
+
 
 ## 🛠 set-up
 
