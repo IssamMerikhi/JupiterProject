@@ -57,6 +57,8 @@ et ici :
 
 ## 🚀 build and run
 
+### Creation de la database
+
 1. Ouvrez le panneau de contrôle XAMPP et lancez les modules Apache et MySQL en appuyant sur **Start** sous la colonne **Actions**
 2. Ouvrez la page de gestion de la base de données MySQL en cliquant sur la case **Admin** de la ligne MySQL et créez une base de données du même nom que le fichier db_conn.php. Dans notre cas la base de données se nomme test_db.
 3. Une fois la base de données crée, il faut crée une table à l'aide de l'onglet **Opération**, du même nom que dans le code php, ici elle se nomme test. Il faut ensuite ajouter 3 colonnes (prénom, nom et email) en type VARCHAR(222) en cliquant sur l'onglet **Structure** et en ajoutant les colonnes une à une. Les colonnes correspondent aux informations récupérées par le formulaire. (J'ai crée une première colonne appelé id et coché la case AI : auto-incrémentation, qui permet de numéroter les personnes remplissant le formulaire).
