@@ -1,0 +1,23 @@
+Commentaire projet développement :
+
+Tout d'abord j'ai pris beaucoup de plaisir à réaliser ce projet de développement. J'aime beaucoup construire des objets et être en charge de toute la partie visible
+et invisible de ce que je construis. Je ressens une sorte de satisfaction lorsque je pars de rien ou presque et qu'après quelques heures de travail le projet fonctionne.
+
+Les outils :
+
+Visual Studio Code
+HTML, CSS, PHP, SQL
+XAMPP (Apache, MySQL, phpMyAdmin)
+
+Les facilités :
+
+La partie HTML qui ne comportait qu'une image et une formulaire.
+La partie CSS grandement facilité à l'aide de la maquette figma.
+La création de la base de donées et de la table sur phpMyAdmin qui se fait en quelques clics.
+
+Les difficultés :
+
+Selon moi, un test de développement devrait se faire en ligne étant donné que chacun des participants n'a pas les mêmes prérequis sur sa machine. J'ai utilisé un ordinateur
+ayant déjà une installation de MySQL. J'ai voulu utilisé XAMPP qui donne un environnement approprié pour tester des projets MYSQL, PHP localement et j'ai rencontré certaines
+difficultés au niveau du port utilisé. MySQL externe utilisé le port 3306 et MySQL XAMPP aussi. Et d'un point de vue éthique, il me semble plus correct que tous les participants
+partent avec les mêmes outils et les mêmes réglages.
