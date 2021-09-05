@@ -35,7 +35,7 @@ Le dossier Jupiter doit se trouver dans le répertoire suivant :
 
 Utiliser XAMPP en mode administrateur. Le mode invité ou utilisateur bloque certaines fonctionnalités.
 
-Si vous avez déjà installer MySQL sur votre machine, il faut changer le port MySQL dans XAMPP
+Si vous avez déjà installé MySQL sur votre machine, il faut changer le port MySQL dans XAMPP
 
    ```sh
     C:\Program Files\xampp\mysql\bin\my.ini
